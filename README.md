@@ -1,6 +1,7 @@
-Web Pages
+Web Pages of the App
 
-#<img width="500" alt="Screenshot 2023-06-25 193522" src="https://github.com/cusp13/Shoopy/assets/108236157/882a6cae-686a-49d5-8703-a7561085daa2">
+
+<img width="500" alt="Screenshot 2023-06-25 193522" src="https://github.com/cusp13/Shoopy/assets/108236157/882a6cae-686a-49d5-8703-a7561085daa2">
 <img width="500" alt="Screenshot 2023-06-25 193551" src="https://github.com/cusp13/Shoopy/assets/108236157/22eb0b97-150c-4d4f-9936-f7b434783581">
 
  Getting Started with Create React App
