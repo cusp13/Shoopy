@@ -1,0 +1,42 @@
+.nav{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: aliceblue;
+    margin-top: -5px;
+}
+.prenav{
+    margin-left: 8vmax;
+}
+.nav>div{
+    padding: 0.4vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: rgb(226, 226, 235);
+    
+}
+.nav>div svg{
+    fill:rgb(238, 241, 244);
+}
+.nav>div{
+    padding: 0.5vmax 4vmax;
+}
+.nav>div>a{
+    color: rgb(240, 231, 231);
+    font-size: 1vmax;
+    font-weight: 400;
+    margin: 1vmax;
+    text-decoration: none;
+    justify-content: center;
+}
+.prenav>a:hover{
+    background-color: rgba(240, 248, 255, 0.234);
+    padding: 6px 10px 6px 10px;
+    border-radius: 20px;
+}
+

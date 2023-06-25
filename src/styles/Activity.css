@@ -1,0 +1,112 @@
+   .Activity-complete {
+    font-weight: 700;
+    font-size: larger;
+    margin-left: 230px;
+    margin-top: 20px;
+  }
+  
+  .week-details {
+    font-weight: 400;
+    opacity: 70%;
+    font-size: medium;
+    margin-left: 230px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 8vmax;
+    margin-top: 20px;
+  }
+  
+  .box {
+    width: 70%;
+    height: 80px;
+    background-color: white;
+    border: 1.5px solid rgb(225, 219, 219);
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    fill: gray;
+  }
+  
+  .box svg {
+    margin: 8px;
+    margin-top: 18px;
+  }
+  
+  .span {
+    font-weight: 800;
+  }
+  
+  .span2 {
+    margin-left: 42vmax;
+    font-weight: bold;
+  }
+  
+  .span1 {
+    font-weight: 300;
+    font-size: small;
+    margin-top: -15px;
+    margin-left: 60px;
+    margin-bottom: -5px;
+    opacity: 80%;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .container {
+      margin-left: 4vmax;
+    }
+  
+    .box {
+      width: 90%;
+      margin-left: -30px;
+      margin-right: 30px;
+    }
+  
+    .span2 {
+      margin-left: 35vmax;
+    }
+  
+    .span1 {
+      margin-left: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjustments for mobile screens */
+    .container {
+      margin-left: 2vmax;
+    }
+  
+    .box {
+      width: 100%;
+      margin-left: -10px;
+      margin-right: 10px;
+    }
+  
+    .span2 {
+      margin-left: 30vmax;
+    }
+  
+    .span1 {
+      margin-left: 10px;
+      font-size: x-small;
+    }
+  }
+  
